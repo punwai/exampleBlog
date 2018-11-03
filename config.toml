@@ -1,0 +1,144 @@
+baseURL = "https://punwai.github.io/blog/"
+languageCode = "en-us"
+title = "LibreHealth"
+theme = "lhblog"
+summaryLength = 15
+
+[params]
+    logo = "logo.png"
+    tags = ["funny", "good", "hilarious"]
+    copyrighttext = "2014 LibreHealth Copyright"
+    footerabout = "LibreHealth is collaborative community for free & open source software projects in Health IT, and is a member project of Software Freedom Conservancy."
+    twitter = "https://twitter.com/librehealthio?lang=en"
+    github = "https://github.com/LibreHealthIO"
+    gitlab = "https://gitlab.com/librehealth"
+    linkedin = "https://www.linkedin.com/company/librehealth"
+    bannerimage = "hfh.png"
+    showcase = "/posts/librehealth-radiology"
+    
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+############################################
+#Menu Section
+############################################
+[[menu.main]]
+    name = "Home"
+    url  = "https://punwai.github.io"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+	identifier = "projects"
+    url  = "https://punwai.github.io/projects/"
+    weight = 2
+
+    [[menu.main]]
+        name = "LibreHealth Radiology"
+        parent = "projects"
+        identifier="lh-radiology"
+        url = "https://punwai.github.io/projects/lh-radiology"
+        pre = "fa fa-heartbeat"
+
+    [[menu.main]]
+        name = "LibreHealth Toolkit"
+	    parent = "projects"
+	    identifier="lh-toolkit"
+	    url = "https://punwai.github.io/projects/lh-toolkit"
+	    pre = "fa fa-medkit"
+
+    [[menu.main]]
+        name = "LibreHealth EHR"
+	    parent = "projects"
+	    identifier="lh-ehr"
+	    url = "https://punwai.github.io/projects/lh-ehr"
+	    pre = "fa fa-user-md"
+
+[[menu.main]]
+    name = "Teams"
+    identifier = "teams"
+    url  = "https://punwai.github.io/teams/"
+    weight = 3
+
+    [[menu.main]]
+        name = "Education & University Outreach"
+        parent = "teams"
+        url  = "https://punwai.github.io/teams/education"
+        pre = "fa fa-graduation-cap"
+
+    [[menu.main]]
+        name = "Documentation"
+        parent = "teams"
+        url  = "https://punwai.github.io/teams/documentation"
+        pre = "fa fa-pencil"
+
+    [[menu.main]]
+        name = "Diversity & Inclusion"
+        parent = "teams"
+        url  = "https://punwai.github.io/teams/diversity"
+
+    [[menu.main]]
+        name = "LibreHealth Steering Committee"
+        parent = "teams"
+        url  = "https://punwai.github.io/teams/lsc"
+
+    [[menu.main]]
+        name = "LibreHealth Infrastructure Team"
+        parent = "teams"
+        url  = "https://punwai.github.io/teams/infrastructure"
+        pre = "fa fa-server"
+
+[[menu.main]]
+    name = "community"
+    identifier = "community"
+    url  = ""
+    weight = 4
+
+    [[menu.main]]
+        name = "Forums"
+        parent = "community"
+        url  = "https://forums.librehealth.io/"
+        pre = "fa fa-comments"
+
+    [[menu.main]]
+        name = "Chat"
+        parent = "community"
+        url  = "https://chat.librehealth.io/"
+        pre = "fa fa-comment"
+
+[[ menu.main ]]
+    name = "blog"
+    identifier = "blog"
+    url = "https://punwai.github.io/blog/"
+    weight = 5
+
+[[menu.main]]
+    name = "demos"
+    identifier = "demos"
+    url  = "https://punwai.github.io/demos"
+    weight = 6
+
+[[menu.main]]
+    name = "contribute"
+    identifier = "contrib"
+    url  = ""
+    weight = 7
+
+    [[menu.main]]
+        name = "Contribute code"
+        parent = "contrib"
+        url  = "https://gitlab.com/librehealth"
+        pre = "fa fa-code-fork"
+
+    [[menu.main]]
+        name = "Contribute documentation"
+        parent = "contrib"
+        url  = "https://gitlab.com/librehealth"
+        pre = "glyphicon glyphicon-book"
+
+    [[menu.main]]
+        name = "Donate money"
+        parent = "contrib"
+        url  = "https://punwai.github.io/donate"
+        pre = "glyphicon glyphicon-usd"

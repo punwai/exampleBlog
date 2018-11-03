@@ -1,0 +1,5 @@
+weight: 2
+title: "LibreHealth Radiology"
+description:
+    The LibreHealth Radiology is an open source Radiology Information System, that is written for the LibreHealth Toolkit and manages the clinical workflow of a radiology department.
+image: "img/carousel/radiology-info-sys.png"
