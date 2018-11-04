@@ -15,6 +15,9 @@ summaryLength = 15
     linkedin = "https://www.linkedin.com/company/librehealth"
     bannerimage = "hfh.png"
     showcase = "/posts/librehealth-radiology"
+    carouselon = false
+    blogdescription = "Read new stories, follow our project"
+    siteDescription = "The Blog of LibreHealth. Read new stories, follow our project"
     
 [taxonomies]
   category = "categories"
