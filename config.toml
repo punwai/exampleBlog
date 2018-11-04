@@ -17,7 +17,8 @@ summaryLength = 15
     showcase = "/posts/librehealth-radiology"
     carouselon = false
     blogdescription = "Read new stories, follow our project"
-    siteDescription = "The Blog of LibreHealth. Read new stories, follow our project"
+    siteDescription = "The Blog of LibreHealth. Read new stories, follow our project"'
+    shareLogo = "share-logo.png"
     
 [taxonomies]
   category = "categories"
